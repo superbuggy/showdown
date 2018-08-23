@@ -96,6 +96,7 @@ class PlayerContainer extends Component {
     const { currentVideo, videos } = this.state
     return (
       <div>
+        <div className="cows">Hi</div>
         {
           currentVideo &&
           <VimeoPlayer
